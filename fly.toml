@@ -19,4 +19,7 @@ primary_region = 'ams'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  
+
+  [[mounts]]
+  source = 'n8n_data'
+  destination = '/home/node/.n8n'
